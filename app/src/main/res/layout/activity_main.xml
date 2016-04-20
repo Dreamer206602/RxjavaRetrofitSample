@@ -22,6 +22,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="another Activity "
+        android:id="@+id/btn_other"
+        android:layout_alignTop="@+id/btn"
         android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
